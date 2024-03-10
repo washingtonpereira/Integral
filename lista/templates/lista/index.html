@@ -1,0 +1,86 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Niterói Integral</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+
+<body>
+  <nav class="navbar bg-success mb4" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <h1>Niterói Integral</h1>
+      </a>
+     <div class="link">
+        <a href="http://127.0.0.1:8000/listas">Lista de Produtos</a>
+      </div>  
+       
+     
+    </div>
+  </nav>
+  </head>
+
+  <body>
+  
+    <div class="container py-5">
+      <div class="row row-cols-8 g-2">
+        <div class="col">
+          <div class="card h-100">
+            <img src="{% static 'img/Tempero-alho_flocos.jpg'%}" class="card-img-top" alt="Castanha do Para">
+            <div class="card-body">
+              <h5 class="card-title">R$ 65,90 Kg</h5>
+              <p class="card-text">Alho é um dos temperos mais consumidos do mundo. Ingrediente essencial na cozinha.
+                Use em todas as preparações culinárias em substituição ao alho fresco..</p>
+              <p class="card-text"><small class="text-body-secondary">Ultima atualização</small></p>
+            </div>
+          </div>
+        </div>
+      
+      <div class="col">
+        <div class="card h-100">
+          <img src="{% static 'img/Castanha _chocolate.jpg'%}" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">R$ 115,90 Kg</h5>
+            <p class="card-text">Castanha de caju drageadas Chocolate 70% Belga Barry Callebaut
+              O Drageado de Castanha de Caju 70% Cacau passa por um processo de beneficiamento antes de ser
+              comercializado.</p>
+            <p class="card-text"><small class="text-body-secondary">Ultima atualização</small></p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="{% static 'img/Damasco-turco.jpg'%}" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">R$ 79,90 Kg</h5>
+            <p class="card-text">O Damasco Seco ou Damasco Turco é uma fruta redonda e amarela, parecida com uma versão
+              menor de um pêssego, mas possui a acidez das ameixas roxas.
+              São extremamente nutritivos e traz muitos benefícios à saúde.</p>
+            <p class="card-text"><small class="text-body-secondary">Ultima atualização</small></p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="{% static 'img/Cappucinno.jpg'%}" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">R$ 69,90 Kg</h5>
+            <p class="card-text">O Capucinno em pó é uma bebida de origem italiana
+              São extremamente nutritivos e traz muitos benefícios à saúde.
+              Nosso cappucino é feito com carinho e  a 7 chaves. ...</p>
+            <p class="card-text"><small class="text-body-secondary">Ultima atualização</small></p>
+          </div>
+        </div>  
+      </div>  
+    </div>
+    
+  </body>
+
+</html>

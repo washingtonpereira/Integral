@@ -1,0 +1,17 @@
+a{
+    display: flex;
+        text-decoration: none;
+    font-size: 28px;
+    color: #fff;
+    
+}
+
+a:hover{
+    color: rgb(91, 187, 91);
+    transform: scale(1.1);
+  }
+
+
+ul li{
+    list-style: none;
+}

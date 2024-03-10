@@ -1,3 +1,5 @@
+{% load static %}
+
 <!doctype html>
 <html lang="pt-br">
 
@@ -7,13 +9,18 @@
   <title>Niteroi Integral</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="{% static '/style.css' %}">
 </head>
 
 <body>
   <nav class="navbar bg-success mb4" data-bs-theme="dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#"><h1>Niterói Integral</h1></a>
+      <a class="navbar-brand" href="#">
+        <h1>Niterói Integral</h1>
+      </a>
+      <a href="http://127.0.0.1:8000">Home</a>
     </div>
+  
   </nav>
   <br>
   <br>
