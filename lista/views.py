@@ -13,4 +13,4 @@ def home_list(request):
 
 def index(request):
     return render(request,'lista/index.html')
-    
+     
