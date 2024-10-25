@@ -1,6 +1,6 @@
 # Integral
 
-Projeto para uma loja de produtos naturais ficticia, onde os clientes conseguem fazer consultas de produtos no qual a loja tém e o valor respectivo do Kg do produto.
+Projeto para uma loja de produtos naturais ficticia, onde os clientes conseguem fazer consultas de produtos no qual a loja tém e o valor respectivo do Kg de cada produto.
 -------------
 ### Tecnologias Utilizadas 
 -   Python
