@@ -6,6 +6,7 @@ Projeto para uma loja de produtos naturais ficticia, onde os clientes conseguem 
 -   Python 3.11.4
 -   Django 5.0.2
 -   Bootstrap v5
+-   Sqlite3
 -------------
 #### Home
 ![home-integral](https://github.com/user-attachments/assets/3a032408-2583-43b0-b15e-5602b11872b7)
