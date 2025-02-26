@@ -11,6 +11,8 @@ Projeto para uma loja de produtos naturais ficticia, onde os clientes conseguem 
 # instalando as dependências.
 
 - Comando: pip instal -r requirements.txt
+- Exemplo : ![image](https://github.com/user-attachments/assets/d5f64072-bf54-498e-b844-0dae3b8eb916)
+
 -------------
 #### Home
 ![home-integral](https://github.com/user-attachments/assets/3a032408-2583-43b0-b15e-5602b11872b7)
