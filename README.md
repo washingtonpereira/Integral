@@ -8,7 +8,7 @@ Projeto para uma loja de produtos naturais ficticia, onde os clientes conseguem 
 -   Bootstrap v5
 -   Sqlite3
 ------------
-#instalando as dependências.
+# instalando as dependências.
 
 - Comando: pip instal -r requirements.txt
 -------------
